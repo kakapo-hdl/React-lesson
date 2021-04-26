@@ -13,6 +13,7 @@ const App = () => {
       .getAll()
       .then(initialNotes => {
         setNotes(initialNotes);
+        console.log(111);
       })
   }, [])
 
